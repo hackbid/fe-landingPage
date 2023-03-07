@@ -1,5 +1,5 @@
 import bayu from "../assets/bayu.png";
-import Tanjiro from "../assets/Kamado-Tanjiro.jpg";
+import dwiki from "../assets/Dwiki.png";
 import hayyik from "../assets/hayyik.png";
 import mitra from "../assets/mitra.png";
 
@@ -83,7 +83,7 @@ const Testimonial = () => {
               </p>
             </main>
             <main className="w-96 image">
-              <img src={Tanjiro} alt="Tanjiro" style={{ height: "17rem" }} />
+              <img src={dwiki} alt="Tanjiro" style={{ height: "17rem" }} />
             </main>
           </section>
         </li>

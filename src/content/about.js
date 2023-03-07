@@ -14,7 +14,7 @@ const About = () => {
             alt="Aplikasi"
             className="absolute"
             style={{
-              height: "31rem",
+              height: "32rem",
               width: "16rem",
               top: 30,
               left: 75,

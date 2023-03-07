@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.055ec285.css",
+    "main.js": "/static/js/main.68fcc52d.js",
+    "static/media/ss.png": "/static/media/ss.a5ac5362dbda1693fa2d.png",
+    "static/media/playstore.png": "/static/media/playstore.68b0b4ca44cc0b8e6108.png",
+    "static/media/hp.png": "/static/media/hp.e03f2487f53b7969391c.png",
+    "static/media/appstore.png": "/static/media/appstore.11156c0c81561772662d.png",
+    "static/media/person.png": "/static/media/person.3cde61663d6e7612082f.png",
+    "static/media/mitra.png": "/static/media/mitra.afb1b490f6de7ba7d0a4.png",
+    "static/media/iPhone.png": "/static/media/iPhone.0eb0fa21b7d2edf0ae48.png",
+    "static/media/Dwiki.png": "/static/media/Dwiki.5a02b8115aa1e4555d82.png",
+    "static/media/bg.jpg": "/static/media/bg.61946e0b1c27b3710c43.jpg",
+    "static/media/bayu.png": "/static/media/bayu.c7a2bd84da3bab1f31c3.png",
+    "static/media/hayyik.png": "/static/media/hayyik.4d73cc3c0f97a277b99d.png",
+    "static/media/logoimage.png": "/static/media/logoimage.9d8999d9a8098f4c21ac.png",
+    "index.html": "/index.html",
+    "main.055ec285.css.map": "/static/css/main.055ec285.css.map",
+    "main.68fcc52d.js.map": "/static/js/main.68fcc52d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.055ec285.css",
+    "static/js/main.68fcc52d.js"
+  ]
+}

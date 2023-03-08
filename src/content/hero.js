@@ -1,8 +1,14 @@
-// import Profil from '../../assets/person.png';
 import Profil from "../assets/person.png";
 import "./style/hero.css";
 
 import { motion } from "framer-motion";
+
+const boxVariants = {
+  initState: { x: -120, y: -120 },
+  finalState: { x: 0, y: 0 },
+  hidden: { opacity: 0, scale: 0 },
+  visible: { opacity: 1, scale: 1 },
+};
 
 const Hero = () => {
   return (
@@ -11,8 +17,9 @@ const Hero = () => {
       style={{ height: "90vh" }}
     >
       <motion.main
-        animate={{ x: 0, y: 0 }}
-        initial={{ x: -120, y: -120 }}
+        variants={boxVariants}
+        animate="finalState"
+        initial="initState"
         transition={{ duration: 1 }}
         className="items-start"
       >

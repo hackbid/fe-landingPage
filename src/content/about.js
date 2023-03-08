@@ -7,9 +7,25 @@ import { motion } from "framer-motion";
 
 const About = () => {
   const ref = useRef(null);
+  const smallRef = useRef(null);
   const isInView = useInView(ref);
+  const isSmallView = useInView(smallRef);
   const animation = useAnimation();
+  const popUpAnimation = useAnimation();
 
+  useEffect(() => {
+    if (isSmallView) {
+      popUpAnimation.start({
+        x: 0,
+        y: 0,
+        opacity: 1,
+        scale: 1,
+        transition: {
+          duration: 1,
+        },
+      });
+    }
+  }, [isSmallView]);
   useEffect(() => {
     if (isInView) {
       animation.start({
@@ -59,30 +75,54 @@ const About = () => {
             <img src={Hp} alt="product" className="screen absolute top-0" />
           </main>
           <ul>
-            <li
+            <motion.li
+              ref={smallRef}
+              initial={{
+                x: 100,
+                y: 100,
+                opacity: 0,
+                scale: 0,
+              }}
+              animate={popUpAnimation}
               className="h-32 py-10 px-5 mb-10 borders text-center items-end"
               style={{ backgroundColor: "#FEC72C" }}
             >
               This auction app has an easy-to-understand interface, so users can
               easily explore the app's features without going through a
               complicated training process.
-            </li>
-            <li
+            </motion.li>
+            <motion.li
+              ref={smallRef}
+              initial={{
+                x: 100,
+                y: 100,
+                opacity: 0,
+                scale: 0,
+              }}
+              animate={popUpAnimation}
               className="text-white h-32 py-10 px-5 mb-10 borders2 text-center items-start"
               style={{ backgroundColor: "#07114F" }}
             >
               With a verification system for users and goods to be auctioned,
               this application can ensure that each auction is carried out
               fairly and honestly.
-            </li>
-            <li
+            </motion.li>
+            <motion.li
+              ref={smallRef}
+              initial={{
+                x: 100,
+                y: 100,
+                opacity: 0,
+                scale: 0,
+              }}
+              animate={popUpAnimation}
               className="bg-slate-500 h-32 py-10 px-5 mb-10 borders text-center items-end"
               style={{ backgroundColor: "#FEC72C" }}
             >
               This auction application provides high transparency and accuracy
               in the auction process, so users can trust the final outcome of
               the auction.
-            </li>
+            </motion.li>
           </ul>
         </motion.section>
       </div>

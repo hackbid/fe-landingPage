@@ -8,7 +8,7 @@ import "./style/testimonial.css";
 const Testimonial = () => {
   return (
     <main className=" h-64 mb-80">
-      <h1 className="text-center mb-24 text-4xl">Developers</h1>
+      <h1 className="text-center mb-24 text-6xl">Developers</h1>
       <ul className="flex gap-14 justify-center items-center" style={{}}>
         <li
           className="bg-slate-500 h-64 w-64 relative induk"

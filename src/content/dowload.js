@@ -8,9 +8,9 @@ const Download = () => {
       <main className="flex justify-between mx-60">
         <section className="self-center max-w-xl ">
           <h1 className="text-2xl font-semibold text-[#1d1d1d] mb-6">
-            Download Our App New
+            Download Our App
           </h1>
-          <p className="text-white">
+          <p className="text-slate-900">
             "Have you ever struggled to get the products you want? Don't worry,
             with Hackbid, you can participate in the bidding process and win
             your dream products at an affordable price."

@@ -5,7 +5,7 @@ import "./style/about.css";
 const About = () => {
   return (
     <>
-      <h1 className="text-6xl mb-10 ml-32 font-medium">About Us</h1>
+      <h1 className="text-6xl mb-10 ml-32 font-medium text-center">About Us</h1>
       <section className="grid grid-cols-35-65  max-w-6xl m-auto justify-around items-center mb-28">
         <main className="relative">
           {/* <span className="satu"></span> */}

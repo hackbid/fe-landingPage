@@ -1,6 +1,7 @@
 import Hp from "../assets/hp.png";
 import Apk from "../assets/ss.png";
 import "./style/about.css";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (

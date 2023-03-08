@@ -5,7 +5,17 @@ import Appstore from "../assets/appstore.png";
 const Download = () => {
   return (
     <div className="h-80" style={{ background: "#FEC72C", overflow: "hidden" }}>
-      <main className="flex justify-between mx-60">
+      <main className="flex justify-between mx-60 items-start">
+        <div className="hidden 2xl:block mt-5">
+          <p className="mb-1 font-bold text-2xl text-center">Scan Here</p>
+          <div className=" border-4 border-black p-3 rounded">
+            <img
+              src="https://cdn.discordapp.com/attachments/1063427855184310293/1083103904260161556/image.png"
+              alt="iphone"
+              style={{ height: "12rem", top: "-2rem", right: 0 }}
+            />
+          </div>
+        </div>
         <section className="self-center max-w-xl ">
           <h1 className="text-2xl font-semibold text-[#1d1d1d] mb-6">
             Download Our App

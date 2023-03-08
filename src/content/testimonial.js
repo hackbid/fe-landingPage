@@ -50,7 +50,7 @@ const Testimonial = () => {
                   developer"
                 </p>
                 <p className="mt-2">
-                  "Lead" <br /> &<br />" fullstack Developers" <br />
+                  "Lead" <br /> &<br />" Fullstack Developer" <br />
                   (Hayyik Lanaa R)
                 </p>
               </main>
@@ -67,7 +67,7 @@ const Testimonial = () => {
               <main className="color transforms text-center px-5 py-16 flex flex-col gap-3">
                 <p>"Who conquers himself is Mighty."</p>
                 <p className="mt-10">
-                  "Design & fullstack developer" <br />
+                  "Design & Fullstack Developer" <br />
                   (Bayuaji Arinanda)
                 </p>
               </main>
@@ -87,7 +87,7 @@ const Testimonial = () => {
                   possibilities of programming."
                 </p>
                 <p className="mt-3">
-                  "fullstack Developer" <br />
+                  "Fullstack Developer" <br />
                   (Mitra Surya U)
                 </p>
               </main>
@@ -107,12 +107,12 @@ const Testimonial = () => {
                   thinking that empowers you to turn ideas into reality."
                 </p>
                 <p className="mt-3">
-                  "fullstack Developer" <br />
+                  "Fullstack Developer" <br />
                   (Dwiki Okvian P)
                 </p>
               </main>
               <main className="w-96 image">
-                <img src={dwiki} alt="Tanjiro" style={{ height: "17rem" }} />
+                <img src={dwiki} alt="Dwiki" style={{ height: "17rem" }} />
               </main>
             </section>
           </li>

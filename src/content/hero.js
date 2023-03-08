@@ -38,7 +38,9 @@ const Hero = () => {
         </p>
         <main className="text-white text-left mt-7 flex items-center gap-10">
           <button className="download">
-            <a href="#download">Download</a>
+            <a href="https://expo.dev/artifacts/eas/TdkUavpkckXWWdXyT5Toj.apk">
+              Download
+            </a>
           </button>
         </main>
       </motion.main>
